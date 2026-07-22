@@ -84,7 +84,7 @@ open a machine terminal in your `Repos` folder:
 
 ```shell
 # Replace username with YOUR GitHub username.
-git clone https://github.com/username/ml-04-regression
+git clone https://github.com/RucuAvinash/ml-04-regression
 
 cd ml-04-regression
 code .
@@ -125,6 +125,33 @@ git add -A
 git commit -m "update"
 git push -u origin main
 ```
+# Penguin Regression Comparison
+
+This project explores regression complexity using the Seaborn Penguins dataset.
+
+## Overview
+We predict `body_mass_g` from `bill_length_mm` and compare polynomial degrees.
+
+## Technical Modification
+- Changed feature from flipper length to bill length
+- Increased MAX_SWEEP from 10 to 15
+- Added comparison graphs for MAX_SWEEP = 5 and 15
+
+## Results
+- MAX_SWEEP = 5 → train RMSE decreases slightly, test RMSE stable
+- MAX_SWEEP = 15 → train RMSE drops dramatically, test RMSE rises after degree 2 → overfitting
+
+## Commands
+```shell
+uv self update
+uv python pin 3.14
+uv lock --upgrade
+uv sync --extra dev --extra docs --upgrade
+
+
+
+
+
 
 </details>
 

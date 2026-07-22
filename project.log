@@ -308,3 +308,214 @@ dtype: int64
 2026-07-19 01:23:09 | INFO | ML | ========================
 2026-07-19 01:23:09 | INFO | ML | Executed successfully!
 2026-07-19 01:23:09 | INFO | ML | ========================
+2026-07-20 23:51:32 | INFO | M04 | === RUN START ===
+2026-07-20 23:51:32 | INFO | M04 | project=M04
+2026-07-20 23:51:32 | INFO | M04 | repo_dir=ml-04-regression
+2026-07-20 23:51:32 | INFO | M04 | python=3.14.2
+2026-07-20 23:51:32 | INFO | M04 | os=Windows 11
+2026-07-20 23:51:32 | INFO | M04 | shell=powershell
+2026-07-20 23:51:32 | INFO | M04 | cwd=notebooks
+2026-07-20 23:51:32 | INFO | M04 | github_actions=False
+2026-07-20 23:51:32 | INFO | M04 | Confirming installation:
+2026-07-20 23:51:32 | INFO | M04 |   python:       3.14.2
+2026-07-20 23:51:32 | INFO | M04 |   pandas:       3.0.3
+2026-07-20 23:51:32 | INFO | M04 |   numpy:        2.5.1
+2026-07-20 23:51:32 | INFO | M04 |   scikit-learn: 1.9.0
+2026-07-20 23:51:32 | INFO | M04 |   seaborn:      0.13.2
+2026-07-20 23:51:32 | INFO | M04 |   matplotlib:   3.11.1
+2026-07-20 23:51:32 | INFO | M04 | Loading dataset: penguins
+2026-07-20 23:51:32 | INFO | M04 | Loaded: 344 rows (instances), 7 columns
+2026-07-20 23:51:32 | INFO | M04 | Original rows: 344  Model rows: 342
+2026-07-20 23:51:32 | INFO | M04 | Train instances: 273
+2026-07-20 23:51:32 | INFO | M04 | Test instances: 69
+2026-07-20 23:51:32 | INFO | M04 | Fitting a linear regression (scikit-learn)
+2026-07-20 23:51:32 | INFO | M04 | Fitted line: body_mass_g = 85.0564 * bill_length_mm + 473.402
+2026-07-20 23:51:32 | INFO | M04 | Fit numbers on the TEST set (for you to interpret):
+2026-07-20 23:51:32 | INFO | M04 |   R-squared: 0.3662
+2026-07-20 23:51:32 | INFO | M04 |   RMSE:      649.168  (in units of Body mass (g))
+2026-07-20 23:51:32 | DEBUG | M04 |   degree= 1  train RMSE=642.33  test RMSE=649.168
+2026-07-20 23:51:32 | DEBUG | M04 |   degree= 2  train RMSE=633.081  test RMSE=653.466
+2026-07-20 23:51:32 | DEBUG | M04 |   degree= 3  train RMSE=632.185  test RMSE=651.575
+2026-07-20 23:51:32 | DEBUG | M04 |   degree= 4  train RMSE=625.024  test RMSE=654.619
+2026-07-20 23:51:32 | DEBUG | M04 |   degree= 5  train RMSE=621.17  test RMSE=661.287
+2026-07-20 23:51:32 | DEBUG | M04 |   degree= 6  train RMSE=621.142  test RMSE=661.788
+2026-07-20 23:51:32 | DEBUG | M04 |   degree= 7  train RMSE=620.74  test RMSE=661.888
+2026-07-20 23:51:32 | DEBUG | M04 |   degree= 8  train RMSE=620.638  test RMSE=661.974
+2026-07-20 23:51:32 | DEBUG | M04 |   degree= 9  train RMSE=617.976  test RMSE=651.937
+2026-07-20 23:51:32 | DEBUG | M04 |   degree=10  train RMSE=611.801  test RMSE=639.384
+2026-07-20 23:51:32 | DEBUG | M04 |   degree=11  train RMSE=610.752  test RMSE=640.316
+2026-07-20 23:51:32 | DEBUG | M04 |   degree=12  train RMSE=610.835  test RMSE=640.38
+2026-07-20 23:51:32 | DEBUG | M04 |   degree=13  train RMSE=610.915  test RMSE=640.392
+2026-07-20 23:51:32 | DEBUG | M04 |   degree=14  train RMSE=609.571  test RMSE=637.259
+2026-07-20 23:51:32 | DEBUG | M04 |   degree=15  train RMSE=609.216  test RMSE=636.44
+2026-07-20 23:51:33 | INFO | M04 | ========================
+2026-07-20 23:51:33 | INFO | M04 | SUMMARY
+2026-07-20 23:51:33 | INFO | M04 | ========================
+2026-07-20 23:51:33 | INFO | M04 | Dataset:  penguins
+2026-07-20 23:51:33 | INFO | M04 | Feature:  bill_length_mm  ->  Target: body_mass_g  (regression)
+2026-07-20 23:51:33 | INFO | M04 | Line:     body_mass_g = 85.0564 * bill_length_mm + 473.402
+2026-07-20 23:51:33 | INFO | M04 | ========================
+2026-07-21 00:00:03 | INFO | M04 | === RUN START ===
+2026-07-21 00:00:03 | INFO | M04 | project=M04
+2026-07-21 00:00:03 | INFO | M04 | repo_dir=ml-04-regression
+2026-07-21 00:00:03 | INFO | M04 | python=3.14.2
+2026-07-21 00:00:03 | INFO | M04 | os=Windows 11
+2026-07-21 00:00:03 | INFO | M04 | shell=powershell
+2026-07-21 00:00:03 | INFO | M04 | cwd=notebooks
+2026-07-21 00:00:03 | INFO | M04 | github_actions=False
+2026-07-21 00:00:03 | INFO | M04 | Confirming installation:
+2026-07-21 00:00:03 | INFO | M04 |   python:       3.14.2
+2026-07-21 00:00:03 | INFO | M04 |   pandas:       3.0.3
+2026-07-21 00:00:03 | INFO | M04 |   numpy:        2.5.1
+2026-07-21 00:00:03 | INFO | M04 |   scikit-learn: 1.9.0
+2026-07-21 00:00:03 | INFO | M04 |   seaborn:      0.13.2
+2026-07-21 00:00:03 | INFO | M04 |   matplotlib:   3.11.1
+2026-07-21 00:00:03 | INFO | M04 | Loading dataset: penguins
+2026-07-21 00:00:03 | INFO | M04 | Loaded: 344 rows (instances), 7 columns
+2026-07-21 00:00:03 | INFO | M04 | Original rows: 344  Model rows: 342
+2026-07-21 00:00:03 | INFO | M04 | Train instances: 273
+2026-07-21 00:00:03 | INFO | M04 | Test instances: 69
+2026-07-21 00:00:03 | INFO | M04 | Fitting a linear regression (scikit-learn)
+2026-07-21 00:00:03 | INFO | M04 | Fitted line: body_mass_g = 85.0564 * bill_length_mm + 473.402
+2026-07-21 00:00:03 | INFO | M04 | Fit numbers on the TEST set (for you to interpret):
+2026-07-21 00:00:03 | INFO | M04 |   R-squared: 0.3662
+2026-07-21 00:00:03 | INFO | M04 |   RMSE:      649.168  (in units of Body mass (g))
+2026-07-21 00:00:03 | DEBUG | M04 |   degree= 1  train RMSE=642.33  test RMSE=649.168
+2026-07-21 00:00:03 | DEBUG | M04 |   degree= 2  train RMSE=633.081  test RMSE=653.466
+2026-07-21 00:00:03 | DEBUG | M04 |   degree= 3  train RMSE=632.185  test RMSE=651.575
+2026-07-21 00:00:03 | DEBUG | M04 |   degree= 4  train RMSE=625.024  test RMSE=654.619
+2026-07-21 00:00:03 | DEBUG | M04 |   degree= 5  train RMSE=621.17  test RMSE=661.287
+2026-07-21 00:00:03 | INFO | M04 | ========================
+2026-07-21 00:00:03 | INFO | M04 | SUMMARY
+2026-07-21 00:00:03 | INFO | M04 | ========================
+2026-07-21 00:00:03 | INFO | M04 | Dataset:  penguins
+2026-07-21 00:00:03 | INFO | M04 | Feature:  bill_length_mm  ->  Target: body_mass_g  (regression)
+2026-07-21 00:00:03 | INFO | M04 | Line:     body_mass_g = 85.0564 * bill_length_mm + 473.402
+2026-07-21 00:00:03 | INFO | M04 | ========================
+2026-07-21 00:18:11 | INFO | M04 | === RUN START ===
+2026-07-21 00:18:11 | INFO | M04 | project=M04
+2026-07-21 00:18:11 | INFO | M04 | repo_dir=ml-04-regression
+2026-07-21 00:18:11 | INFO | M04 | python=3.14.2
+2026-07-21 00:18:11 | INFO | M04 | os=Windows 11
+2026-07-21 00:18:11 | INFO | M04 | shell=powershell
+2026-07-21 00:18:11 | INFO | M04 | cwd=notebooks
+2026-07-21 00:18:11 | INFO | M04 | github_actions=False
+2026-07-21 00:18:11 | INFO | M04 | Confirming installation:
+2026-07-21 00:18:11 | INFO | M04 |   python:       3.14.2
+2026-07-21 00:18:11 | INFO | M04 |   pandas:       3.0.3
+2026-07-21 00:18:11 | INFO | M04 |   numpy:        2.5.1
+2026-07-21 00:18:11 | INFO | M04 |   scikit-learn: 1.9.0
+2026-07-21 00:18:11 | INFO | M04 |   seaborn:      0.13.2
+2026-07-21 00:18:11 | INFO | M04 |   matplotlib:   3.11.1
+2026-07-21 00:18:11 | INFO | M04 | Loading dataset: penguins
+2026-07-21 00:18:11 | INFO | M04 | Loaded: 344 rows (instances), 7 columns
+2026-07-21 00:18:11 | INFO | M04 | Original rows: 344  Model rows: 342
+2026-07-21 00:18:11 | INFO | M04 | Train instances: 273
+2026-07-21 00:18:11 | INFO | M04 | Test instances: 69
+2026-07-21 00:18:11 | INFO | M04 | Fitting a linear regression (scikit-learn)
+2026-07-21 00:18:11 | INFO | M04 | Fitted line: body_mass_g = 85.0564 * bill_length_mm + 473.402
+2026-07-21 00:18:11 | INFO | M04 | Fit numbers on the TEST set (for you to interpret):
+2026-07-21 00:18:11 | INFO | M04 |   R-squared: 0.3662
+2026-07-21 00:18:11 | INFO | M04 |   RMSE:      649.168  (in units of Body mass (g))
+2026-07-21 00:18:12 | DEBUG | M04 |   degree= 1  train RMSE=642.33  test RMSE=649.168
+2026-07-21 00:18:12 | DEBUG | M04 |   degree= 2  train RMSE=633.081  test RMSE=653.466
+2026-07-21 00:18:12 | DEBUG | M04 |   degree= 3  train RMSE=632.185  test RMSE=651.575
+2026-07-21 00:18:12 | DEBUG | M04 |   degree= 4  train RMSE=625.024  test RMSE=654.619
+2026-07-21 00:18:12 | DEBUG | M04 |   degree= 5  train RMSE=621.17  test RMSE=661.287
+2026-07-21 00:18:50 | INFO | M04 | === RUN START ===
+2026-07-21 00:18:50 | INFO | M04 | project=M04
+2026-07-21 00:18:50 | INFO | M04 | repo_dir=ml-04-regression
+2026-07-21 00:18:50 | INFO | M04 | python=3.14.2
+2026-07-21 00:18:50 | INFO | M04 | os=Windows 11
+2026-07-21 00:18:50 | INFO | M04 | shell=powershell
+2026-07-21 00:18:50 | INFO | M04 | cwd=notebooks
+2026-07-21 00:18:50 | INFO | M04 | github_actions=False
+2026-07-21 00:18:50 | INFO | M04 | Confirming installation:
+2026-07-21 00:18:50 | INFO | M04 |   python:       3.14.2
+2026-07-21 00:18:50 | INFO | M04 |   pandas:       3.0.3
+2026-07-21 00:18:50 | INFO | M04 |   numpy:        2.5.1
+2026-07-21 00:18:50 | INFO | M04 |   scikit-learn: 1.9.0
+2026-07-21 00:18:50 | INFO | M04 |   seaborn:      0.13.2
+2026-07-21 00:18:50 | INFO | M04 |   matplotlib:   3.11.1
+2026-07-21 00:18:50 | INFO | M04 | Loading dataset: penguins
+2026-07-21 00:18:50 | INFO | M04 | Loaded: 344 rows (instances), 7 columns
+2026-07-21 00:18:50 | INFO | M04 | Original rows: 344  Model rows: 342
+2026-07-21 00:18:50 | INFO | M04 | Train instances: 273
+2026-07-21 00:18:50 | INFO | M04 | Test instances: 69
+2026-07-21 00:18:50 | INFO | M04 | Fitting a linear regression (scikit-learn)
+2026-07-21 00:18:50 | INFO | M04 | Fitted line: body_mass_g = 85.0564 * bill_length_mm + 473.402
+2026-07-21 00:18:50 | INFO | M04 | Fit numbers on the TEST set (for you to interpret):
+2026-07-21 00:18:50 | INFO | M04 |   R-squared: 0.3662
+2026-07-21 00:18:50 | INFO | M04 |   RMSE:      649.168  (in units of Body mass (g))
+2026-07-21 00:18:50 | DEBUG | M04 |   degree= 1  train RMSE=642.33  test RMSE=649.168
+2026-07-21 00:18:50 | DEBUG | M04 |   degree= 2  train RMSE=633.081  test RMSE=653.466
+2026-07-21 00:18:50 | DEBUG | M04 |   degree= 3  train RMSE=632.185  test RMSE=651.575
+2026-07-21 00:18:50 | DEBUG | M04 |   degree= 4  train RMSE=625.024  test RMSE=654.619
+2026-07-21 00:18:50 | DEBUG | M04 |   degree= 5  train RMSE=621.17  test RMSE=661.287
+2026-07-21 00:21:11 | INFO | M04 | === RUN START ===
+2026-07-21 00:21:11 | INFO | M04 | project=M04
+2026-07-21 00:21:11 | INFO | M04 | repo_dir=ml-04-regression
+2026-07-21 00:21:11 | INFO | M04 | python=3.14.2
+2026-07-21 00:21:11 | INFO | M04 | os=Windows 11
+2026-07-21 00:21:11 | INFO | M04 | shell=powershell
+2026-07-21 00:21:11 | INFO | M04 | cwd=notebooks
+2026-07-21 00:21:11 | INFO | M04 | github_actions=False
+2026-07-21 00:21:11 | INFO | M04 | Confirming installation:
+2026-07-21 00:21:11 | INFO | M04 |   python:       3.14.2
+2026-07-21 00:21:11 | INFO | M04 |   pandas:       3.0.3
+2026-07-21 00:21:11 | INFO | M04 |   numpy:        2.5.1
+2026-07-21 00:21:11 | INFO | M04 |   scikit-learn: 1.9.0
+2026-07-21 00:21:11 | INFO | M04 |   seaborn:      0.13.2
+2026-07-21 00:21:11 | INFO | M04 |   matplotlib:   3.11.1
+2026-07-21 00:21:11 | INFO | M04 | Loading dataset: penguins
+2026-07-21 00:21:11 | INFO | M04 | Loaded: 344 rows (instances), 7 columns
+2026-07-21 00:21:11 | INFO | M04 | Original rows: 344  Model rows: 342
+2026-07-21 00:21:11 | INFO | M04 | Train instances: 273
+2026-07-21 00:21:11 | INFO | M04 | Test instances: 69
+2026-07-21 00:21:11 | INFO | M04 | Fitting a linear regression (scikit-learn)
+2026-07-21 00:21:11 | INFO | M04 | Fitted line: body_mass_g = 85.0564 * bill_length_mm + 473.402
+2026-07-21 00:21:11 | INFO | M04 | Fit numbers on the TEST set (for you to interpret):
+2026-07-21 00:21:11 | INFO | M04 |   R-squared: 0.3662
+2026-07-21 00:21:11 | INFO | M04 |   RMSE:      649.168  (in units of Body mass (g))
+2026-07-21 00:21:12 | DEBUG | M04 |   degree= 1  train RMSE=642.33  test RMSE=649.168
+2026-07-21 00:21:12 | DEBUG | M04 |   degree= 2  train RMSE=633.081  test RMSE=653.466
+2026-07-21 00:21:12 | DEBUG | M04 |   degree= 3  train RMSE=632.185  test RMSE=651.575
+2026-07-21 00:21:12 | DEBUG | M04 |   degree= 4  train RMSE=625.024  test RMSE=654.619
+2026-07-21 00:21:12 | DEBUG | M04 |   degree= 5  train RMSE=621.17  test RMSE=661.287
+2026-07-21 00:24:03 | INFO | M04 | === RUN START ===
+2026-07-21 00:24:03 | INFO | M04 | project=M04
+2026-07-21 00:24:03 | INFO | M04 | repo_dir=ml-04-regression
+2026-07-21 00:24:03 | INFO | M04 | python=3.14.2
+2026-07-21 00:24:03 | INFO | M04 | os=Windows 11
+2026-07-21 00:24:03 | INFO | M04 | shell=powershell
+2026-07-21 00:24:03 | INFO | M04 | cwd=notebooks
+2026-07-21 00:24:03 | INFO | M04 | github_actions=False
+2026-07-21 00:24:03 | INFO | M04 | Confirming installation:
+2026-07-21 00:24:03 | INFO | M04 |   python:       3.14.2
+2026-07-21 00:24:03 | INFO | M04 |   pandas:       3.0.3
+2026-07-21 00:24:03 | INFO | M04 |   numpy:        2.5.1
+2026-07-21 00:24:03 | INFO | M04 |   scikit-learn: 1.9.0
+2026-07-21 00:24:03 | INFO | M04 |   seaborn:      0.13.2
+2026-07-21 00:24:03 | INFO | M04 |   matplotlib:   3.11.1
+2026-07-21 00:24:03 | INFO | M04 | Loading dataset: penguins
+2026-07-21 00:24:03 | INFO | M04 | Loaded: 344 rows (instances), 7 columns
+2026-07-21 00:24:03 | INFO | M04 | Original rows: 344  Model rows: 342
+2026-07-21 00:24:03 | INFO | M04 | Train instances: 273
+2026-07-21 00:24:03 | INFO | M04 | Test instances: 69
+2026-07-21 00:24:03 | INFO | M04 | Fitting a linear regression (scikit-learn)
+2026-07-21 00:24:03 | INFO | M04 | Fitted line: body_mass_g = 85.0564 * bill_length_mm + 473.402
+2026-07-21 00:24:03 | INFO | M04 | Fit numbers on the TEST set (for you to interpret):
+2026-07-21 00:24:03 | INFO | M04 |   R-squared: 0.3662
+2026-07-21 00:24:03 | INFO | M04 |   RMSE:      649.168  (in units of Body mass (g))
+2026-07-21 00:24:03 | DEBUG | M04 |   degree= 1  train RMSE=642.33  test RMSE=649.168
+2026-07-21 00:24:03 | DEBUG | M04 |   degree= 2  train RMSE=633.081  test RMSE=653.466
+2026-07-21 00:24:03 | DEBUG | M04 |   degree= 3  train RMSE=632.185  test RMSE=651.575
+2026-07-21 00:24:03 | DEBUG | M04 |   degree= 4  train RMSE=625.024  test RMSE=654.619
+2026-07-21 00:24:03 | DEBUG | M04 |   degree= 5  train RMSE=621.17  test RMSE=661.287
+2026-07-21 00:24:04 | INFO | M04 | ========================
+2026-07-21 00:24:04 | INFO | M04 | SUMMARY
+2026-07-21 00:24:04 | INFO | M04 | ========================
+2026-07-21 00:24:04 | INFO | M04 | Dataset:  penguins
+2026-07-21 00:24:04 | INFO | M04 | Feature:  bill_length_mm  ->  Target: body_mass_g  (regression)
+2026-07-21 00:24:04 | INFO | M04 | Line:     body_mass_g = 85.0564 * bill_length_mm + 473.402
+2026-07-21 00:24:04 | INFO | M04 | ========================
